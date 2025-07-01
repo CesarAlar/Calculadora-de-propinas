@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Calculadora de Propinas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para calcular propinas y totales al seleccionar productos de un menú.  
+Construida con **React**, **TypeScript**, **TailwindCSS** y **useReducer**.
 
-Currently, two official plugins are available:
+![Captura de pantalla 2025-06-30 182019](https://github.com/user-attachments/assets/a8a63c83-9b0f-4be3-b95b-75e6df4b00be)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
 
-## Expanding the ESLint configuration
+- Menú de productos con precios
+- Selección de cantidad y producto
+- Elección de porcentaje de propina (10%, 20%, 50%)
+- Cálculo automático de subtotal, propina y total a pagar
+- Interfaz moderna, clara y responsiva
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Tecnologías usadas
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- TailwindCSS
+- useReducer
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## 💻 Instalación
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/CesarAlar/Calculadora-de-propinas.git
+2.Instala las dependencias:
+  ```bash
+  npm install
+3.Inicia la app:
+  ```bash
+  npm run dev
