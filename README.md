@@ -22,12 +22,9 @@ Construida con **React**, **TypeScript**, **TailwindCSS** y **useReducer**.
 
 ## 💻 Instalación
 
+
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/CesarAlar/Calculadora-de-propinas.git
-2.Instala las dependencias:
-  ```bash
-  npm install
-3.Inicia la app:
-  ```bash
-  npm run dev
+
+  
